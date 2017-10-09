@@ -1,0 +1,412 @@
+body
+{
+	background-color:#FF5F19;
+	padding:0px 0px;
+	margin:0px 0px;
+}
+
+.images
+{
+	padding:0px 0px;
+	margin:10px 10px;
+}
+
+.modal-backdrop
+{
+	display:none;
+}
+
+#loginlink
+{
+   width:70px;
+   height:50px;
+}
+
+#registerlink
+{
+   width:80px;
+   height:50px;
+}
+
+.modal-header
+{
+	background-color:#FF5F19;
+}
+
+.modal-body
+{
+	background-color:#DDDDDD;
+}
+
+.modal-footer
+{
+	background-color:#FF5F19;
+}
+
+.navbar-nav.navbar-center 
+{
+    position: absolute;
+    left: 50%;
+	top:25%;
+    transform: translatex(-50%);
+}
+
+#registerlink.modal-header
+{
+	background-color:#FF5F19;
+}
+
+#botnav
+{
+	margin:0px 0px;
+	padding:0px 0px;
+}
+
+#searchpricetab
+{
+	width:70%;
+	height:400px;
+	border:solid #CCCCCC 1px;
+	margin-left:200px;
+	margin-right:200px;
+	background-color:white;
+}
+
+#searchtab
+{
+	width:70%;
+	height:100%;
+	border-right:dotted #CCCCCC 1px;
+	padding:20px 20px;
+}
+
+#pricetab
+{
+	width:30%;
+	float:right;
+	position:relative;
+	top:-382px;
+	text-align:center;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+#hcheck1
+{
+	padding-top:20px;
+}
+
+.chl
+{
+	font-weight:normal;
+	position:relative;
+	top:-2px;
+}
+
+#buttonseer
+{
+	border-radius:0px 0px;
+	border:solid #4A993E 2px;
+}
+
+#deskdiv
+{
+	position:relative;
+	padding-top:5px;
+	margin-left:200px;
+	width:70%;
+	color:white;
+}
+
+.pricediv
+{
+	position:relative;
+	top:-10px;
+	bottom:-10px;
+	height:10px;
+	color:black;
+	
+}
+
+#brandstab
+{
+	width:70%;
+	height:200px;
+	border:solid #CCCCCC 1px;
+	margin-left:200px;
+	background-color:white;
+	margin-top:10px;
+	margin-bottom:0px;
+	padding:10px 20px;
+}
+
+#brandshr
+{
+	width:943px;
+	margin-left:-20px;
+	position:relative;
+	top:-275px;
+	height:1px;
+	background-color:#CCCCCC;
+}
+
+.logodiv
+{
+	width:15%;
+	height:60%;
+	position:relative;
+	top:-270px;
+	left:20px;
+	float:left;
+	clear:right;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#populartab
+{
+	width:70%;
+	height:320px;
+	border:solid #CCCCCC 1px;
+	margin-left:200px;
+	background-color:white;
+	margin-top:10px;
+	margin-bottom:0px;
+	padding:10px 20px;
+}
+
+#popularhr
+{
+	width:943px;
+	margin-left:-20px;
+	position:relative;
+	top:-65px;
+	height:1px;
+	background-color:#CCCCCC;
+}
+
+.populardiv
+{
+	width:15%;
+	height:60%;
+	position:relative;
+	top:-170px;
+	left:20px;
+	float:left;
+	clear:right;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#delltab
+{
+	width:70%;
+	height:320px;
+	border:solid #CCCCCC 1px;
+	margin-left:200px;
+	background-color:white;
+	margin-top:10px;
+	margin-bottom:0px;
+	padding:10px 20px;
+	position:relative;
+}
+
+#dellhr
+{
+	width:943px;
+	margin-left:-20px;
+	position:relative;
+	top:-85px;
+	height:1px;
+	background-color:#CCCCCC;
+}
+
+.delldiv
+{
+	width:15%;
+	height:60%;
+	position:relative;
+	top:-80px;
+	left:20px;
+	float:left;
+	clear:right;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#delllabel
+{
+	position:relative;
+	top:-75px;
+}
+
+#hptab
+{
+	width:70%;
+	height:350px;
+	border:solid #CCCCCC 1px;
+	margin-left:200px;
+	background-color:white;
+	margin-top:10px;
+	margin-bottom:0px;
+	padding:10px 20px;
+	position:relative;
+}
+
+#hphr
+{
+	width:943px;
+	margin-left:-20px;
+	position:relative;
+	top:0px;
+	height:1px;
+	background-color:#CCCCCC;
+}
+
+.hpdiv
+{
+	width:15%;
+	height:60%;
+	position:relative;
+	top:20px;
+	left:20px;
+	float:left;
+	clear:right;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#hplabel
+{
+	position:relative;
+	top:5px;
+}
+
+#lenovotab
+{
+	width:70%;
+	height:380px;
+	border:solid #CCCCCC 1px;
+	margin-left:200px;
+	background-color:white;
+	margin-top:10px;
+	margin-bottom:0px;
+	padding:10px 20px;
+	position:relative;
+}
+
+#lenovohr
+{
+	width:943px;
+	margin-left:-20px;
+	position:relative;
+	top:0px;
+	height:1px;
+	background-color:#CCCCCC;
+}
+
+.lenovodiv
+{
+	width:15%;
+	height:60%;
+	position:relative;
+	top:20px;
+	left:20px;
+	float:left;
+	clear:right;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#lenovolabel
+{
+	position:relative;
+	
+	top:5px;
+}
+
+#asustab
+{
+	width:70%;
+	height:300px;
+	border:solid #CCCCCC 1px;
+	margin-left:200px;
+	background-color:white;
+	margin-top:10px;
+	margin-bottom:0px;
+	padding:10px 20px;
+	position:relative;
+}
+
+#asushr
+{
+	width:943px;
+	margin-left:-20px;
+	position:relative;
+	top:0px;
+	height:1px;
+	background-color:#CCCCCC;
+}
+
+.asusdiv
+{
+	width:15%;
+	height:60%;
+	position:relative;
+	top:20px;
+	left:20px;
+	float:left;
+	clear:right;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#asuslabel
+{
+	position:relative;
+	
+	top:5px;
+}
+
+#corsairtab
+{
+	width:70%;
+	height:330px;
+	border:solid #CCCCCC 1px;
+	margin-left:200px;
+	background-color:white;
+	margin-top:10px;
+	margin-bottom:0px;
+	padding:10px 20px;
+	position:relative;
+}
+
+#corsairhr
+{
+	width:943px;
+	margin-left:-20px;
+	position:relative;
+	top:0px;
+	height:1px;
+	background-color:#CCCCCC;
+}
+
+.corsairdiv
+{
+	width:15%;
+	height:60%;
+	position:relative;
+	top:20px;
+	left:20px;
+	float:left;
+	clear:right;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+#corsairlabel
+{
+	position:relative;
+	
+	top:5px;
+}

@@ -1,0 +1,63 @@
+body
+{
+	background-color:#F5F5F5;
+	padding:0px 0px;
+	margin:0px 0px;
+}
+
+.images
+{
+	padding:0px 0px;
+	margin:10px 10px;
+}
+
+.modal-backdrop
+{
+	display:none;
+}
+
+#loginlink
+{
+   width:70px;
+   height:50px;
+}
+
+#registerlink
+{
+   width:80px;
+   height:50px;
+}
+
+.modal-header
+{
+	background-color:#FF5F19;
+}
+
+.modal-body
+{
+	background-color:#DDDDDD;
+}
+
+.modal-footer
+{
+	background-color:#FF5F19;
+}
+
+.navbar-nav.navbar-center 
+{
+    position: absolute;
+    left: 50%;
+	top:25%;
+    transform: translatex(-50%);
+}
+
+#registerlink.modal-header
+{
+	background-color:#FF5F19;
+}
+
+#botnav
+{
+	margin:0px 0px;
+	padding:0px 0px;
+}
