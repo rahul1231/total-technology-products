@@ -1,10 +1,16 @@
+html
+{
+	width:100%;
+}
+
 body
 {
 	background-color:#FF5F19;
 	padding:0px 0px;
 	margin:0px 0px;
+	bottom:0px;
 	position:relative;
-	height:600px;
+	width:100%;
 }
 
 .images
@@ -129,4 +135,34 @@ body
 	top:-410px;
 	border:solid #CCCCCC 1px;
 	background-color:white;
+}
+
+/*
+
+	custom styling
+	
+
+*/
+
+
+.footer {
+	height:55px;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	position: relative;
+ 	width: 100%;
+  	bottom: 0;
+  	display: flex;
+  	justify-content: space-between;
+}
+
+#about {
+	position:relative;
+	left:-310px;
+}
+
+#imagelogos {
+	position:relative;
+	right:-300px;
 }

@@ -6,11 +6,17 @@
 	margin:0px 0px;
 }
 
+html {
+	width:100%;
+	height:-100px;
+}
+
 body
 {
 	background-color:#F5F5F5;
 	padding:0px 0px;
 	margin:0px 0px;
+	width:100%;
 }
 
 .images
@@ -166,4 +172,47 @@ tr
 {
 	margin:0px 0px;
 	padding:0px 0px;
+}
+
+
+/*
+
+	custom styling
+	
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+.content {
+	padding-bottom:0px; /*height of the footer*/
+}
+
+.footer {
+	height:55px;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	position: relative;
+ 	width: 100%;
+  	bottom: 0;
+  	display: flex;
+  	justify-content: space-between;
+}
+
+#about {
+	position:relative;
+	left:-310px;
+}
+
+#imagelogos {
+	position:relative;
+	right:-300px;
 }
