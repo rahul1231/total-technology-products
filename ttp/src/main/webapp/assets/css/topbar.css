@@ -1,0 +1,168 @@
+html
+{
+	width:100%;
+}
+
+body
+{
+	background-color:#FF5F19;
+	padding:0px 0px;
+	margin:0px 0px;
+	bottom:0px;
+	position:relative;
+	width:100%;
+}
+
+.images
+{
+	padding:0px 0px;
+	margin:10px 10px;
+}
+
+.form1
+{
+	width:435px;
+	height:330px;
+	padding:10px 110px;
+	margin:20px 20px;
+}
+
+#wtudiv
+{
+	background-color:white;
+	width:435px;
+	height:330px;
+	border:solid #CCCCCC 1px;
+	padding:20px 20px;
+}
+
+.div1
+{
+	width:400px;
+	height:70px;
+	padding:10px 10px;
+	margin:20px 20px;
+	border:solid black;
+	position:relative;
+    left:600px;
+	top:-632px;
+	border:solid #CCCCCC 1px;
+	background-color:white;
+}
+
+#oycdala
+{
+	width:400px;
+	height:330px;
+	padding:20px 20px;
+	position:relative;
+    left:600px;
+	top:-340px;
+}
+
+#loginlink
+{
+   width:70px;
+   height:50px;
+}
+
+#registerlink
+{
+   width:80px;
+   height:50px;
+}
+
+.modal-backdrop
+{
+	display:none;
+}
+
+.modal-header
+{
+	background-color:#FF5F19;
+}
+
+.modal-body
+{
+	background-color:#DDDDDD;
+}
+
+.modal-footer
+{
+	background-color:#FF5F19;
+}
+
+#registerlink.modal-header
+{
+	background-color:#FF5F19;
+}
+
+.navbar-nav.navbar-center 
+{
+    position: absolute;
+    left: 50%;
+	top:25%;
+    transform: translatex(-50%);
+}
+
+#botnav
+{
+	margin:0px 0px;
+	padding:0px 0px;
+	top:-400px;
+}
+
+#cu
+{
+
+	height:70px;
+	padding:10px 110px;
+	margin:20px 20px;
+	position:relative;
+    left:0px;
+	top:-370px;
+	width:435px;
+}
+
+.div2
+{
+	width:435px;
+	height:120px;
+	padding:10px 10px;
+	margin:20px 20px;
+	position:relative;
+    left:110px;
+	top:-410px;
+	border:solid #CCCCCC 1px;
+	background-color:white;
+}
+
+/*
+
+	custom styling
+	
+
+*/
+
+
+.footer {
+	height:55px;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	position: relative;
+ 	width: 100%;
+  	bottom: 0;
+  	display: flex;
+  	justify-content: space-between;
+}
+
+#about {
+	position:relative;
+	left:-310px;
+}
+
+#imagelogos {
+	position:relative;
+	right:-300px;
+}

@@ -1,3 +1,7 @@
+<head>
+
+</head>
+
 <nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -47,12 +51,13 @@
 								</div>
 							</div>
 						</li>
-						<li class="dropdown">
+						<li class="dropdown" id="listProducts">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="Desktops.html">Desktops</a></li>
-								<li><a href="Laptops.html">Laptops</a></li>
-								<li><a href="Mac.html">Mac</a></li>
+							<ul class="dropdown-menu" style="list-style:none;">
+								<li><a style="color:black; text-decoration:none;" href="${contextRoot}/show/all/products">ALL</a></li>		
+								<c:forEach items="${categories}" var="category">						
+								<li><a style="color:black; text-decoration:none;" href="${contextRoot}/show/category/${category.id}/products" id="a_${category.name}">${category.name}</a></li>
+								</c:forEach>
 							</ul>
 						</li>
 					</ul>

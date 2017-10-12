@@ -3,6 +3,7 @@
 <script src="${js}/Contact.js"></script>
 </head>
 
+
 <img src="${images}\Contact Us\Have_something_to_tell_us.png" width="100%" height="100%"/>
 		
 		<form action="" method="get" class="form1">

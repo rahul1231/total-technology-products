@@ -15,13 +15,20 @@
   </properties>
   
   <dependencies>
-  
+  	
+  	<!-- Link backend project -->
+  	<dependency>
+	  	<groupId>net.rah</groupId>
+		<artifactId>ttpbackend</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	
   	<!-- JAVA EE API -->
 	<dependency>
 	    <groupId>javax</groupId>
 	    <artifactId>javaee-api</artifactId>
 	    <version>${javaee.version}</version>
-	    <scope>provided</scope>
+	    <scope>provided</scope> 
 	</dependency>
   	
   	<!-- JUNIT -->
