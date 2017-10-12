@@ -18,7 +18,6 @@ public class PageController {
 	@RequestMapping(value={"/","/home","/index"})
 	public ModelAndView index() {
 		ModelAndView mv=new ModelAndView("page");
-		//mv.addObject("greeting","Welcome to Spring Web MVC");
 		mv.addObject("title","Home");
 		
 		//passing the list of categories
@@ -31,8 +30,11 @@ public class PageController {
 	@RequestMapping(value="/about")
 	public ModelAndView about() {
 		ModelAndView mv=new ModelAndView("page");
-		//mv.addObject("greeting","Welcome to Spring Web MVC");
 		mv.addObject("title","About Us");
+		
+		//passing the list of categories
+		mv.addObject("categories",categoryDAO.list());
+		
 		mv.addObject("userClickAbout",true);
 		return mv;
 	}
@@ -41,6 +43,10 @@ public class PageController {
 	public ModelAndView contact() {
 		ModelAndView mv=new ModelAndView("page");
 		mv.addObject("title","Contact Us");
+		
+		//passing the list of categories
+		mv.addObject("categories",categoryDAO.list());
+		
 		mv.addObject("userClickContact",true);
 		return mv;
 	}
