@@ -14,7 +14,7 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
-@ComponentScan(basePackages={"net.rah.ttpbackend.dto"})
+@ComponentScan(basePackages={"net.rah.ttpbackend.*"})
 @EnableTransactionManagement
 public class HibernateConfig {
 
@@ -26,7 +26,7 @@ public class HibernateConfig {
 	private final static String DATABASE_PASSWORD="";
 	
 	// dataSource will be available
-	@Bean
+	@Bean("dataSource")
 	public DataSource getDataSource() {
 		
 		BasicDataSource dataSource=new BasicDataSource();
@@ -41,12 +41,13 @@ public class HibernateConfig {
 	}
 	
 	// sessionFactory will be available
+	@Bean
 	public SessionFactory getSessionFactory(DataSource dataSource) {
 		
 		LocalSessionFactoryBuilder builder=new LocalSessionFactoryBuilder(dataSource);
 		
 		builder.addProperties(getHibernateProperties());
-		builder.scanPackages("net.rah.ttpbackend.dto");
+		builder.scanPackages("net.rah.ttpbackend.*");
 		
 		return builder.buildSessionFactory();
 		

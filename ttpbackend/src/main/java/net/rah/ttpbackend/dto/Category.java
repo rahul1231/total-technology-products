@@ -6,7 +6,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import org.springframework.transaction.annotation.Transactional;
+
 @Entity
+@Transactional
 public class Category {
 	
 	/*
@@ -23,11 +26,7 @@ public class Category {
 	private boolean active=true;
 	
 	
-	@Override
-	public String toString() {
-		return "Category [id=" + id + ", name=" + name + ", description=" + description + ", imageURL=" + imageURL
-				+ ", active=" + active + "]";
-	}
+	
 	public int getId() {
 		return id;
 	}
@@ -57,5 +56,12 @@ public class Category {
 	}
 	public void setActive(boolean active) {
 		this.active = active;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Category [id=" + id + ", name=" + name + ", description=" + description + ", imageURL=" + imageURL
+				+ ", active=" + active + "]";
 	}
 }
