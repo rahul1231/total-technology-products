@@ -60,10 +60,13 @@
 								</c:forEach>
 							</ul>
 						</li>
+						<li id="manageProducts">
+							<a href="${contextRoot}/manage/products">Manage Products</a>
+						</li>
 					</ul>
 					<form class="navbar-form navbar-left">
 						<div class="form-group">
-							<input type="text" class="form-control" size="100" placeholder="What are you looking for?">
+							<input type="text" class="form-control" size="70" placeholder="What are you looking for?">
 						</div>
 						<button type="submit" class="btn btn-default">Search</button>
 					</form>

@@ -2,6 +2,7 @@
     pageEncoding="ISO-8859-1"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>    
+<%@taglib prefix="sf" uri="http://www.springframework.org/tags/form" %>
 
 <spring:url var="css" value="/resources/css" />
 <spring:url var="js" value="/resources/js" />
@@ -15,6 +16,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, intial-scale=1">
+<!-- jQuery -->
 <script src="${js}/jquery-3.2.1.min.js"></script>
 <script src="${js}/bootstrap.min.js"></script>
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
@@ -22,10 +24,14 @@
 <link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
 <!-- Custom styles for this template -->
 <link href="${css}/myapp.css" rel="stylesheet">
+<!-- jQuery validator -->
+<script src="${js}/jquery.validate.js"></script>
 <!-- DataTable Plugin -->
 <script src="${js}/jquery.dataTables.js"></script>
 <!-- DataTable Bootstrap Script -->
 <script src="${js}/dataTables.bootstrap.js"></script>
+<!-- Bootbox -->
+<script src="${js}/bootbox.min.js"></script>
 <!-- Self coded javascript -->
 <script src="${js}/myapp.js"></script>
 
@@ -107,6 +113,11 @@
 		<!-- Load only when user clicks show product -->
 		<c:if test="${userClickShowProduct==true}">
 			<%@include file="singleProduct.jsp" %>
+		</c:if>
+
+		<!-- Load only when user clicks manage products -->
+		<c:if test="${userClickManageProducts==true}">
+			<%@include file="manageProducts.jsp" %>
 		</c:if>
 
 		</div>
