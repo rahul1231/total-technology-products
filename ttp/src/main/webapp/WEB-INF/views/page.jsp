@@ -18,6 +18,14 @@
 <script src="${js}/jquery-3.2.1.min.js"></script>
 <script src="${js}/bootstrap.min.js"></script>
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap DataTables -->
+<link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="${css}/myapp.css" rel="stylesheet">
+<!-- DataTable Plugin -->
+<script src="${js}/jquery.dataTables.js"></script>
+<!-- DataTable Bootstrap Script -->
+<script src="${js}/dataTables.bootstrap.js"></script>
 <!-- Self coded javascript -->
 <script src="${js}/myapp.js"></script>
 
@@ -25,6 +33,8 @@
 
 <script>
 	window.menu='${title}';
+	
+	window.contextRoot='${contextRoot}';
 </script>
 
 <script type="text/javascript">
@@ -93,7 +103,11 @@
 		<c:if test="${userClickAllProducts==true or userClickCategoryProducts==true}">
 			<%@include file="listProducts.jsp" %>
 		</c:if>
-
+		
+		<!-- Load only when user clicks show product -->
+		<c:if test="${userClickShowProduct==true}">
+			<%@include file="singleProduct.jsp" %>
+		</c:if>
 
 		</div>
 
