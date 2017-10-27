@@ -25,13 +25,13 @@ body
 	display:none;
 }
 
-#mymodal
+#loginlink
 {
    width:70px;
    height:50px;
 }
 
-#mymodal1
+#registerlink
 {
    width:80px;
    height:50px;
@@ -198,6 +198,10 @@ tr
 	right:-300px;
 }
 
+.help-block{
+	color:red;
+}
+
 /*Toggle Switch*/
 /* The switch - the box around the slider */
 .switch {
@@ -262,10 +266,6 @@ input:checked + .slider:before {
 
 .table-responsive {
 	overflow-x:inherit;
-}
-
-.help-block{
-	color:red;
 }
 
 .adminDataTableImg {

@@ -1,5 +1,4 @@
 <head>
-
 </head>
 
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -19,8 +18,8 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li id="home"><a href="${contextRoot}/home">Home<span class="sr-only">(current)</span></a></li>
-						<li id="mymodal">
-							<a href="${contextRoot}/login" data-toggle="modal">Login</a>
+						<li id="loginlink">
+							<a href="#mymodal" data-toggle="modal">Login</a>
 							<div class="container">
 								<div class="row">
 									<div class="col-md-3">
@@ -71,8 +70,8 @@
 						<button type="submit" class="btn btn-default">Search</button>
 					</form>
 					<ul class="nav navbar-nav navbar-right">
-					<li id="mymodal1">
-							<a href="${contextRoot}/register" data-toggle="modal">Register</a>
+					<li id="registerlink">
+							<a href="#mymodal1" data-toggle="modal">Register</a>
 							<div class="container">
 								<div class="row">
 									<div class="col-md-3">

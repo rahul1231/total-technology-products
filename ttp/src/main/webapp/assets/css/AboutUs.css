@@ -1,3 +1,11 @@
+#carousel
+{
+	width:100%;
+	height:100%;
+	padding:0px 0px;
+	margin:0px 0px;
+}
+
 body
 {
 	background-color:#F5F5F5;
@@ -9,6 +17,7 @@ body
 {
 	padding:0px 0px;
 	margin:10px 10px;
+	align:right;
 }
 
 .modal-backdrop
@@ -16,13 +25,13 @@ body
 	display:none;
 }
 
-#mymodal
+#loginlink
 {
    width:70px;
    height:50px;
 }
 
-#mymodal1
+#registerlink
 {
    width:80px;
    height:50px;
@@ -56,11 +65,116 @@ body
 	background-color:#FF5F19;
 }
 
+#bestpricediv
+{
+	background-color:#FF5F19;
+	color:white;
+	width:100%; 
+	height:50px;
+}
+
+#li1
+{
+	padding:10px;
+	padding-left:12%;
+	padding-right:10%;
+	font-size:20px;
+	width:100%; 
+	height:50px;
+	display:inline;
+	float: left;
+}
+
+#li2
+{
+	padding:10px;
+	padding-left:12%;
+	padding-right:10%;
+	font-size:20px;
+	width:100%;
+	height:50px;
+	display:inline;
+	float:left;
+}
+
+#li3
+{
+	padding:10px;
+	padding-left:12%;
+	padding-right:10%;
+	font-size:20px;
+	width:100%;
+	height:50px;
+	display:inline;
+	float: left;
+}
+
+.lit1
+{
+	color:black;
+	width:1200px;
+	margin:10px 10px;
+}
+
+tr
+{
+	height:30px;
+}
+
+.lit2
+{
+	color:black;
+	width:700px;
+	margin:10px 10px;
+	padding:0px 0px;
+}
+
+#th2l
+{
+	width:200px;
+}
+
+#lid2
+{
+	position: relative;
+    left:-300px;
+	top:10px;
+}
+
+.lit3
+{
+	color:black;
+	width:1200px;
+	margin:10px 10px;
+	padding:0px 0px;
+}
+
+
+#lid3
+{
+	position: relative;
+    left:-945px;
+	top:10px;
+}
+
+.th3l
+{
+	width:200px;
+}
+
 #botnav
 {
 	margin:0px 0px;
 	padding:0px 0px;
 }
+
+/*
+
+	custom styling
+	
+
+*/
+
 
 .footer {
 	height:55px;
@@ -82,4 +196,8 @@ body
 #imagelogos {
 	position:relative;
 	right:-300px;
+}
+
+.help-block{
+	color:red;
 }
