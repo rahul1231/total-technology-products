@@ -34,6 +34,7 @@
 <script src="${js}/bootbox.min.js"></script>
 <!-- Self coded javascript -->
 <script src="${js}/myapp.js"></script>
+<link href="${css}/signup-personal.css" rel="stylesheet">		
 
 <title>Total Technology Products - ${title}</title>
 
@@ -85,14 +86,14 @@
 		<div class="wrapper">
 		
 		<!-- Navigation -->
-		<nav class="navbar navbar-inverse navbar-fixed-top navbar-dark bg-dark" role="navigation">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="${flowExecutionUrl}&_eventId_home">Home</a>
 				</div>
 			</div>
 		</nav>
-		
+		<br><br><br>
 
 		<!-- Page content -->
 		<div class="content">
@@ -104,7 +105,7 @@
 			</div>
 
 		</div>
-
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<!-- Footer -->
 		<%@include file="../../shared/footer.jsp" %>
 		
