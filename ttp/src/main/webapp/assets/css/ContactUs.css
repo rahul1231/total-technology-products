@@ -60,13 +60,13 @@ body
 	top:-340px;
 }
 
-#loginlink
+#mymodal
 {
    width:70px;
    height:50px;
 }
 
-#registerlink
+#mymodal1
 {
    width:80px;
    height:50px;
@@ -165,4 +165,8 @@ body
 #imagelogos {
 	position:relative;
 	right:-300px;
+}
+
+.help-block{
+	color:red;
 }

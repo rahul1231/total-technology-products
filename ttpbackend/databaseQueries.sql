@@ -2,8 +2,8 @@ CREATE TABLE category(
 
 	id IDENTITY,
 	name VARCHAR(50),
-	description VARCHAR(255),
-	image_url VARCHAR(50),
+	description VARCHAR(2000),
+	image_url VARCHAR(2000),
 	is_active BOOLEAN,
 
 	CONSTRAINT pk_category_id PRIMARY KEY (id)
@@ -44,9 +44,9 @@ CREATE TABLE product(
 
 	id IDENTITY,
 	code VARCHAR(20),
-	name VARCHAR(50),
+	name VARCHAR(117),
 	brand VARCHAR(50),
-	description VARCHAR(255),
+	description VARCHAR(2000),
 	unit_price DECIMAL(10,2),
 	quantity INT,
 	is_active BOOLEAN,
